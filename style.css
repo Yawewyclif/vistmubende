@@ -1,0 +1,882 @@
+body{
+    text-align: center;
+    margin: 0;
+    cursor: pointer;
+}
+
+.all-cont{
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.container {
+    background-color:white;
+    box-shadow: 9px 12px 16px 5px rgba(0, 0, 0 ,0.4);
+    position: sticky;
+}
+.container img{
+    width: 100px;
+}
+.container h2{
+    color:blue;
+    font-weight: bold;
+    margin: 3px;
+    font-family: sans-serif;
+}
+.mubende{
+    width: 100%;
+}
+.logo h2{
+    color: rgb(251, 255, 255);
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: bold;
+}
+.logo{
+    background-color: teal;
+    padding: 5px;
+    border-top-left-radius:50px ;
+    border-bottom-left-radius: 50px;
+}
+
+
+
+.nav-bar ul li a,
+.social ul li a{
+    text-decoration: none;
+    
+}
+.nav-bar ul li {
+    padding: 1px;
+    color: aliceblue;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav-bar ul li a{
+    color: teal;
+    font-size: 16px;
+}
+
+
+.nav-bar ul li a .active  {
+    color: red;
+}
+
+.nav-bar  li a:hover{
+    color: red;
+    transition: 0.5s;
+    border-bottom: white 1px solid;
+}
+.nav-bar ul,
+ .social ul {
+    list-style: none;
+    padding: 0; 
+    margin: 5px;
+}
+    
+
+.social ul{
+    margin: 5px;
+}
+
+.social .fa:hover{
+    opacity: 0.7;
+}
+.social ul  li a{
+    color: white;
+    font-size: 12px;
+   background-color: #333;
+    border-radius: 50px;
+    font-weight: lighter;
+    padding: 7px;
+}
+
+
+.social ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.social ul li {
+    margin: 3px;
+    font-size: 25px;
+}
+
+
+ 
+.image{
+    width: 100%;
+}
+
+.image h2{
+    color: rgb(39, 97, 121);
+}
+.image img{
+    width: 100%;
+
+}
+
+.more p{
+    cursor: pointer;
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+}
+.more p::first-letter{
+    color: skyblue;
+    font-size: 20px;
+}
+
+.temp{
+    text-align: center;
+    color: white;
+    margin: 0;
+
+    background-color: white;
+}
+
+.travel-con  {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+ 
+}
+.travel-con img{
+    width: 100%;
+
+}
+.travel-con p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+.travel-con p a{
+    font-family: "Trirong", serif;
+    font-weight: 100;
+}
+.travel-con img:hover{
+    filter: blur(2px);
+}
+.travel-con p a{
+    text-decoration: none;
+    border: lightgrey 1px solid;
+    padding: 10px;
+    border-radius: 5px;
+    color: aliceblue;
+    font-family: 'Times New Roman', Times, serif ;
+    cursor: pointer;
+}
+.travel-con p a:hover{
+    color: black;
+    background-color: lightgrey;
+    transition: ease-in, 0.5s;
+   box-shadow: 9px 12px 16px 5px rgba(0, 0, 0 ,0.4);
+}
+
+.hist{
+background-color: whitesmoke;
+}
+.mub p{
+ color: blue;
+ font-weight: bold;
+}
+
+.act h2{
+    color: white;
+    background-color:red;
+    margin: 0;
+    padding: 20px;
+}
+.act-con{
+    text-align: start;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+.act-con .con-p span{
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+    color: black;
+}
+.act-con .con-p a{
+    text-transform: uppercase;
+    margin-left: 20px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+    color: teal ;
+    cursor: pointer;
+    font-size: 16px;
+    text-decoration: none;
+}
+.act-con .con-p a:hover{
+    color: #333;
+    opacity: 0.5;
+    transition: 0.5s;
+    box-shadow: 9px 12px 16px 5px rgba(0, 0, 0 ,0.4);
+}
+.ads{
+    text-transform: uppercase;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.news{
+    width: 100%;
+    background-color: white;
+}
+.news-con img{
+    width: 100%;
+}
+
+.news-con h3 {
+    padding-left: 10px;
+    text-align: start;
+    margin: 2px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 17, 0);
+}
+.news-con p{
+    text-align: start;
+    padding-left: 10px;
+    margin: 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    opacity: 0.6;
+    color: rgb(9, 8, 8);
+}
+.news-soc li, a{
+    text-decoration: none;
+    list-style: none;
+    font-size: 13px;
+    border-radius: 50px;
+}
+.news-soc li a{
+    color: white;
+    margin: 3px;
+    padding: 5px;
+    background-color: #333;
+ }
+
+
+.news-soc li a:hover{
+    opacity: 0.7;
+
+}
+
+.news-soc{
+    display:flex;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 10px;
+
+}
+
+.history{
+    margin-top: 20px;
+    width: 100%;
+    background-color: white;
+}
+.hist-img img{
+    width: 100%;
+}
+
+.hist-content h3{
+    color: white;
+    background-color: red;
+    padding: 5px;
+}
+.hist-content h2{
+    color: teal;
+    background-color: white;
+}
+
+.hist-content p{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.project-img{
+    width: 100%;
+}
+
+.projects{
+    background-color: teal;
+}
+
+.project-info p{
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.proj-con img{
+    width: 100%;
+}
+.proj-con{
+    width: 100%;
+    position: relative;
+    text-align: center;
+
+}
+.project-info h2{
+    background-color: teal;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.proj-con p{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    transform: translate(-5%, -5%);
+    background-color: whitesmoke;
+     padding: 10px;
+     background-color: purple;
+     color: white;
+
+}
+
+.lang{
+    background-color: red;
+    color: white;
+}
+
+.lang h2{
+    font-weight: 100;
+}
+.fest-con img{
+    width: 100%;
+}
+.festival{
+    background-color: white;
+}
+.fest-con p{
+    background-color: red;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-transform: capitalize;
+    margin-top: 0;
+}
+.hotel-con img{
+    width: 100%;
+}
+.hotels{
+    margin-top: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.hotel-con{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: white;
+}
+
+.sky-sports h2{
+    color: red;
+}
+.hot{
+margin-bottom: 2px;
+color: white;
+background-color: teal;
+}
+.hotels h4{
+    color: white;
+    background-color: teal;
+    margin:0;
+    padding: 3px;
+}
+.media h2{
+    color: blueviolet;
+}
+
+
+.call-back{
+    background-color: rgb(48, 48, 202);
+    padding-bottom: 10px;
+}
+
+.call-back .input{
+    border: none;
+    padding: 5px;
+}
+.call-back .input-button{
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    border:none;
+    background-color: white;
+}
+.call-back .input-button:hover{
+    color: white;
+    background-color: teal;
+    transition: 0.5s;  
+    border-radius: 0;
+
+}
+
+.call-back h2{
+    color: white;
+    margin-bottom: 5px;
+}
+
+
+.footer-content{
+    color: white;
+    width: 100%;
+    background-color: #333;
+
+}
+
+.footer-contact ul li {
+    text-decoration: none;
+    list-style: none;
+    text-align: start;
+}
+
+.footer-contact,
+.cooper,
+.footer-links{
+    text-align: start;
+    padding: 5px;
+}
+
+.footer-contact ul li  a{
+    display: block;
+    margin: 5px;
+}
+
+.footer-contact ul li span{
+    margin-left: 10px;
+}
+
+.footer-links ul li, 
+.footer-get-in-touch ul ,
+.cooper ul li{
+    text-decoration: none;
+    list-style: none;
+}
+
+.footer-links ul,
+.cooper ul,
+.footer-get-in-touch ul,
+.footer-contact ul {
+    padding: 0;
+}
+
+.footer-links ul li a,
+.cooper ul li a,
+.footer-get-in-touch h2 a,
+.footer-contact ul li a{
+    color:white
+}
+
+
+
+.footer-links h2,
+.cooper h2,
+.footer-contact h2{
+    color: teal;
+}
+
+.footer-get-in-touch h2 a{
+    border: white solid 1px;
+    border-radius: 0;
+    padding:8px;
+}
+.footer-get-in-touch ul{
+    margin: 0;
+  }
+
+.footer-get-in-touch h2 a:hover{
+    border: none;
+    transition: 0.5s;
+    background-color: teal;
+    border-radius: 0;
+}
+
+.cooper{
+    text-align: start;
+}
+
+.footer-get-in-touch ul li{
+    display: inline-block;
+    margin: 5px;
+
+}
+.footer-get-in-touch ul li a{
+    color: whitesmoke;
+    cursor: pointer;
+}
+
+.footer-get-in-touch ul li a:hover{
+    opacity: 0.7;
+    border-radius: 0;
+}
+  
+
+.copy{
+    text-align: center;
+    background-color: black;
+}
+.copy p{
+    padding-top: 5px;
+    margin: 0;
+  }
+
+  .copy-con a:hover{
+    color: teal;
+    transition: 0.5s;
+  }
+  
+
+.copy-con p{
+    color: rgb(70, 68, 68);
+}
+.design h2{
+    color: rgb(70, 68, 68);
+    margin: 0;
+    padding: 5px;
+    font-size: 17px;
+}
+.hotel-map h3{
+    color: teal;
+    width: 100%;
+  }
+
+
+.fa-comment {
+    color: blue;
+}
+.fa-thumbs-up{
+    color: red;
+}
+.media-platforms h1{
+    color: white;
+    background-color: teal;
+    
+}
+
+
+
+
+
+
+@media(min-width:800px){
+ 
+
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .container img{
+        display: inline-block;
+        width: 30px;
+        margin-left: 6px;
+        vertical-align: bottom;
+    }
+    .container h2{
+        display: inline-block;
+    }
+    .logo{
+        margin-top: 5px;
+    }
+    .logo img{
+        font-size: 20px;
+    }
+ .logo h2{
+    font-size: 20px;
+ }
+    .nav-bar ul{
+        display: flex;
+        flex-direction: rows;
+    }
+    .nav-bar  li a{
+        padding-left: 6px;
+    }
+
+    .nav-bar{
+        justify-content: center;
+    }
+    .nav-bar  li a:hover{
+        color: red;
+        transition: 0.5s;
+        border-bottom: white 2px solid;
+    }
+    .news .news-con{
+        margin:10px ;
+    }
+    .container{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    .container img{
+        display: inline-block;
+        width: 30px;
+        margin-left: 6px;
+        vertical-align: bottom;
+    }
+    .container h2{
+        display: inline-block;
+    }
+    .logo{
+        margin-top: 5px;
+    }
+    .logo img{
+        font-size: 16px;
+    }
+ .logo h2{
+    font-size: 16px;
+ }
+ .eat-img{
+    position: relative;
+    text-align: center;
+  }
+
+  .eat-img .img-con{
+    position: absolute;
+  }
+  
+.img-con{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate( -50%, -50%);
+}
+.img-con p{
+  color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+
+   .mubende{
+    width: 100%;
+    align-self: center;
+    grid-column: 2 /3;
+}
+.mubende h2{
+    font-size: 25px;
+}
+.mubende h2::first-letter{
+    color: blue;
+    font-size: 30px;
+}
+.image{
+    width: 100%;
+   position: relative;
+}
+.image h2{
+    position: absolute;
+    top: 50%;
+}
+.image h2{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(51, 51, 51, 0.473);
+    color: white;
+}
+   .temp{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 6px;
+   }
+
+   .news{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+   
+   }
+   .news-con{
+    box-shadow: 2px 1px 3px 2px rgba(0, 0, 0, 0.507) ;
+   }
+
+   .history{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin-top: 30px;
+    margin-bottom: 20px;
+   }
+   .hist-img{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 20px;
+    grid-gap: 4px;
+   }
+   .hist-img img:nth-child(2){
+    align-self: center;
+    grid-column: 3 / 5;
+    grid-row: 1 / 3;
+   }
+   .hist-img img:nth-child(1){
+    align-self: center;
+    grid-column: 1 / 3;
+   }
+   .hist-img img:nth-child(3){
+    align-self: center;
+    grid-column: 1 / 2;
+   }
+
+   .hist-img img:nth-child(3){
+    grid-column: 1 /3;
+    grid-row: 2/4;
+   }
+
+    .hist-content{
+        padding: 20px;
+        align-self: center;
+        text-align: start;
+    }
+    .hist-content h2{
+        color: teal;
+    }
+    .project-img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 5px;
+        align-self: center;
+
+    }
+    .project-info{
+        padding: 20px;
+        align-self: center;
+        background-color: white;
+    }
+    .projects{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .proj-con{
+        border: 2px, teal;
+    }
+    .proj-con p{
+        position: absolute;
+       bottom: 8px;
+       margin: 0;
+      left: 16px;
+    }
+    .project-img .proj-con:nth-child(1){
+        grid-column: 1 / 4;
+    }
+ 
+    .festive-con{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 20px;
+        padding-left: 100px;
+        padding-right: 100px;
+        margin-bottom: 50px;
+    }
+    
+    .hotel-con img{
+        width: 100%;
+        
+    }
+    .hotels{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-gap: 5px;
+        background-color:white;
+        padding-left: 100px;
+        padding-right:100px;
+    }
+    .hotels h4{
+        color:t#333;
+        margin:0;
+        padding: 3px;
+    }
+    .hotel-con{
+        margin-left: 5px;
+        margin-right: 5px;
+        background-color:white;
+    }
+ .hot{
+    margin-bottom: 2px;
+    color: white;
+    background-color: teal;
+ }
+
+.footer-content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+
+   
+}
+
+
+.call-back h2{
+    color: white;
+    font-weight: 500;
+    display: inline-block;
+    margin-right: 100px;
+}
+
+.footer-contact p{
+    padding: 10px;
+}
+
+.footer-contact{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.footer-links{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-contact ul li span{
+    margin-left: 10px;
+}
+
+.cooper{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-get-in-touch{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.footer-links ul li :hover{
+    opacity:0.7 ;
+    border-radius:0;
+    transition: 0.5s;
+    border-bottom: teal solid 2px;
+}
+.cooper ul li a:hover{
+    opacity:0.7 ;
+    border-radius:0;
+    transition: 0.5s;
+    border-bottom: teal solid 2px  
+}
+.copy{
+    display: flex;
+    flex-direction: rows;
+    justify-content: space-around;
+}
+.copy-con a,
+.design a{
+    font-size: 1rem;
+}
+.hotel-map h3{
+    color: teal;
+    width: 100%;
+  }
+
+}
