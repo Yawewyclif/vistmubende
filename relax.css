@@ -1,6 +1,7 @@
 body{
   text-align: center;
   margin: 0;
+  font-family: "exo", sans-serif;
 }
 
 .container {
@@ -512,5 +513,6 @@ body{
 .img-con p {
   background-color: rgba(0, 0, 0, 0.452);
 }
+
 
 }
