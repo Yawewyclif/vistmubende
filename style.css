@@ -1,6 +1,7 @@
 body{
     text-align: center;
     margin: 0;
+    font-family: "exo", sans-serif;
     cursor: pointer;
 }
 
@@ -878,5 +879,6 @@ background-color: teal;
     color: teal;
     width: 100%;
   }
+
 
 }
