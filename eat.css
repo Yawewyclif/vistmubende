@@ -1,6 +1,7 @@
 body{
   text-align: center;
   margin: 0;
+  font-family: "exo", sans-serif;
 }
 
 .container {
@@ -536,4 +537,5 @@ margin:5px;
 .iflame{
   width: 100%;
 }
+
 }
