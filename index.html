@@ -288,9 +288,13 @@
         <a class="input-button" href="sms:+256787444413">Send Now</a>
      </div>
        <div class="lang"><h2>Change The Web Language</h2></div>
-      <!-- Elfsight Website Translator | Untitled Website Translator -->
-       <script src="https://elfsightcdn.com/platform.js" async></script>
-       <div class="elfsight-app-194fd9b0-d109-4e8f-bd0e-55397041daa4" data-elfsight-app-lazy></div>
+       <div id="google_translate_element"></div>
+      <script>
+     function googleTranslateElementInit() {
+        new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+    }
+    </script>
+      <script src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
      <footer>
          <div class="footer-content">
@@ -370,6 +374,7 @@
 <div class="elfsight-app-aac02f94-00fe-4eb0-b172-19567784c203" data-elfsight-app-lazy></div>
 </body>
 </html>
+
 
 
 
