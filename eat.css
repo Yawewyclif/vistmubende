@@ -1,7 +1,8 @@
 body{
   text-align: center;
   margin: 0;
-  font-family: "exo", sans-serif;
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
 }
 
 .container {
@@ -539,3 +540,4 @@ margin:5px;
 }
 
 }
+
