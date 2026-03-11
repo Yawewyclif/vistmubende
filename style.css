@@ -209,8 +209,8 @@ background-color: whitesmoke;
     text-transform: uppercase;
     margin-left: 20px;
     letter-spacing: 2px;
-    font-weight: lighter;
-    color: teal ;
+    font-weight: 500;
+    color: black ;
     cursor: pointer;
     font-size: 16px;
     text-decoration: none;
@@ -883,4 +883,5 @@ background-color: teal;
 
 
 }
+
 
