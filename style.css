@@ -301,7 +301,9 @@ background-color: whitesmoke;
 
 .hist-content p{
    padding:5px;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  
+    font-family:
+ system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .project-img{
     width: 100%;
@@ -747,6 +749,11 @@ background-color: teal;
     .hist-content h2{
         color: teal;
     }
+
+   . history-content p{
+
+     Color:white;
+} 
     .project-img{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
